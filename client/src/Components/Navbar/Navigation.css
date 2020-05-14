@@ -1,0 +1,28 @@
+.navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-bottom: 40px;
+}
+
+.nav-brand {
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 0 2px #000;
+}
+
+.navbar-link {
+  background-color: #ddd;
+  color: #000;
+  padding: 10px 20px;
+  transition: background .5s;
+}
+
+.navbar-link:hover {
+  background-color: #000;
+  color: #fff;
+}
